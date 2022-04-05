@@ -56,3 +56,20 @@ The Content-type Builder is however only accessible when the application is in a
 
 ### Creating our frontend app
 1. Run ```npx create-next-app blog-next``` to create the Next.js project;
+2. Go to 
+
+### Static Generation
+- (getStaticProps);
+- This method is primarily used inside a page to fetch data at build time;
+- Once the app is built, it will refuse to refresh the data till the time another build has been run;
+- The advantage of using GetStaticProps is that it lets the page be statically generated. As a result, out of all the available data fetching methods, GetStaticProps generates the fastest load times;
+- As the data is rendered before it reaches the client, the SEO of the page improves by leaps and bounds;
+
+### Server-side Rendering 
+- (getServerSideProps);
+- This method is primarily used to fetch data for every instance that a user issues a request to the page;
+- It fetches the data first before sending the page to the client. Should the client happen to issue a subsequent request, the data is fetched again;
+- Using GetServerSideProps allows you to improve your SEO as in this method the data is rendered before it reaches the client;
+- As the data is refreshed every time the user loads the page, they can view the updated information at all times;
+
+#### [Differences between Static Generation and Server-Side Rendering](https://www.youtube.com/watch?v=J1E2-hJZUVg&t=343s)
