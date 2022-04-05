@@ -7,6 +7,7 @@
 
 ## Strapi.io
 - A Headless CMS
+- [Strapi.io API - Developer Docs](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html#open-source-contribution)
 ### Headless CMS
 - [Headless CMS explained in 1 minute - Click to watch the video!](https://youtu.be/-Uor3I0n_vQ)
 
