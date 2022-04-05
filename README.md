@@ -52,6 +52,11 @@ The Content-type Builder is however only accessible when the application is in a
 7. Add the permission in the Posts settings, so Public viewers can be able to retrieve the information;
 8 Access the api using this address: http://localhost:1337/api/[colletion-type]
 
+### GraphQL
+1. To install ```yarn add @strapi/plugin-graphql```;
+2. To access "http://localhost:1337/graphql";
+- [More details](https://strapi.io/blog/a-deep-dive-into-strapi-graph-ql)
+
 ## Next.js
 
 ### Creating our frontend app
