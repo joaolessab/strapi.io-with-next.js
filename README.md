@@ -8,7 +8,7 @@
 ## Strapi.io
 - A Headless CMS
 ### Headless CMS
-- [Headless CMS explained in 1 minute](https://youtu.be/-Uor3I0n_vQ)
+- [Headless CMS explained in 1 minute - Click to watch the video!](https://youtu.be/-Uor3I0n_vQ)
 
 - A headless CMS is a content management system (CMS) that provides backend-only functionalities, making content accessible through a GraphQL or REST API and displayable on any device possible.
 
