@@ -5,6 +5,11 @@
 #### Strapi is a backend content management system that can build API' for us quickly (Headless CMS)
 #### Next.js is a React framework that allows us to create really fast dynamic applications quickly
 
+## Running the projects
+1. Enter the "blog-strapi" folder and run ```yarn develop``` to run the edition mode or only ```yarn start``` for viewing mode;
+2. Access "http://localhost:1337/admin/" to view Strapi admin page;
+3. Enter the "blog-next" folder and run ```yarn dev``` to run the development mode or only ```yarn start``` for production mode;
+4. Access "http://localhost:3000/" to view the Next.js app;
 ## Strapi.io
 - A Headless CMS
 - [Strapi.io API - Developer Docs](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html#open-source-contribution)
@@ -46,3 +51,8 @@ The Content-type Builder is however only accessible when the application is in a
 6. Add some fields;
 7. Add the permission in the Posts settings, so Public viewers can be able to retrieve the information;
 8 Access the api using this address: http://localhost:1337/api/[colletion-type]
+
+## Next.js
+
+### Creating our frontend app
+1. Run ```npx create-next-app blog-next``` to create the Next.js project;
